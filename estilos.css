@@ -71,12 +71,7 @@ main {
 
 }
 
-h1{
-	color: #E3DAC9;
-	margin-bottom: 20px;
-	font-size: 50px;
-	font-weight: bold;
-}
+
 h2{
 	color: black;
 	text-align: center;
@@ -97,9 +92,32 @@ h2{
 	font-weight: 100%;
 	padding-left: 150px;
 	height: 450px;
-	
-
+} 
+h1{
+	font-size: 50px;
+	padding-left: 8px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	color:rgba(218, 211, 190, 0.856);
+	animation-duration: 2s;
+	animation-name: aparecer;
+	animation-delay: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+/*            animation-timing-function: ease-in;*/
 }
+
+@keyframes aparecer {
+0%{
+opacity: 0; 
+}
+
+100%{
+opacity: 1;
+}
+}
+
 
 .animate p{
 	margin-bottom: 30px;
