@@ -18,6 +18,29 @@ header {
 	float: left;
 	margin-left: 30px;	
 }
+.menu {
+	float: right;
+	margin-top: 40px;
+
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;	
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	padding: 10px;
+	font-size: 20px;
+
+}
+.menu a:hover{
+	color: pink;
+
+}
 
 .portada{
 	border-radius: 20px;
